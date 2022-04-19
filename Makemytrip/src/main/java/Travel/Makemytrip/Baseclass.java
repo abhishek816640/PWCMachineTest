@@ -20,7 +20,7 @@ public class Baseclass {
 	  public Baseclass(){
 		  System.setProperty("webdriver.chrome.driver","C://TestAutomation//PageObjectModel//drivers//chromedriver.exe");
 	    driver = new ChromeDriver();
-	    //System.setProperty("webdriver.chrome.driver","C://TestAutomation//PageObjectModel//drivers//chromedriver.exe");
+	    
 	    WebDriver driver = new ChromeDriver();
 	  }
 	  
